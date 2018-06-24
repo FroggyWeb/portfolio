@@ -91,7 +91,7 @@
     {
       "name": "Интернет-магазин косметики",
       "desc": "Разработка дизайна, адаптивная верстка, интеграция CMS MODX Revolution, настройка фильтров. В данное время заказчик изменил структуру каталога, многие вещи в результате не работают, сайт мной не поддерживается.",
-      "prev": ".../img/works/lav-prev.jpg",
+      "prev": "../img/works/lav-prev.jpg",
       "class": "html cms design",
       "link": "http://lav-shop.by",
       "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]

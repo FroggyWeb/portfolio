@@ -8,9 +8,9 @@ let controller = new ScrollMagic.Controller(),
     phone = '.intro__phone',
     pad = '.intro__pad',
     introTween = new TimelineMax(),
-    skillsListTween = new TimelineMax(),
-    workItem = new TimelineMax()
+    skillsListTween = new TimelineMax()
 
+// Intro slider animate-------------------------------------
 introTween
   .staggerFromTo(
     [phone, pad, book], 1,
@@ -28,27 +28,33 @@ introTween
     {opacity: 1, scale:1, y: 0}, .3
   )
 
+// Skill List animate-------------------------------------
+
 skillsListTween
   .staggerFromTo('.skills-list__item', .5,
     {opacity:0, scale:0},
     {opacity:1, scale:1, ease: Power2.easeIn}, .3
   )
 
-
-workItem
-  .staggerFromTo('.works__item', .8,
-    {opacity:0},
-    {opacity:1, ease: Power2.easeIn},  .3
-  )
-
-let skillsList = new ScrollMagic.Scene({
+let skillList = new ScrollMagic.Scene({
   triggerElement: ".skills-list",
   triggerHook: .8,
   reverse: false
-  // triggerHook: "onLeave"
   })
   .setTween(skillsListTween)
-  // .on("enter", function () {t2})
-  // .addIndicators({ name: "1 (duration: 0)" }) // add indicators (requires plugin)
   .addTo(controller);
+
+// Work List animate-------------------------------------
+
+$('.works__item').each(function(){
+  let worksTween = TweenMax
+    .fromTo(this, Math.random()*5, {opacity:0}, {opacity: 1}, Math.random()*10)
+  let scene = new ScrollMagic.Scene({
+    triggerElement: this,
+    triggerHook: .8,
+    reverse: false
+  })
+  .setTween(worksTween)
+  .addTo(controller);
+})
 

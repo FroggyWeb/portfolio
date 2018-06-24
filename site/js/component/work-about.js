@@ -1,8 +1,10 @@
 import modal from '../component/mymodal.js';
 import slick from './../vendor/slick';
 
+
 function showWork() {
-  $('.works__list').on("click", ".works__cart", function (e) {
+  console.log($('.works__list'));
+  $('.works__list').on("click", ".works__card", function (e) {
     let n = index.index(this);
     let work = `
     <div class = "work-about row">
@@ -34,12 +36,10 @@ function showWork() {
 }
 
 let works;
-let index = $('.works__list .works__cart');
-$.getJSON('/views/data.json', function (data) {
+let index = $('.works__list .works__card');
+
+$.getJSON('../../views/data.json', function (data) {
   works = data.works;
   showWork();
 });
-
-
-
 
