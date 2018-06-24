@@ -26,7 +26,7 @@ let config = {
     output: {
         filename: './js/[name]-bundle.js',
         path: path.resolve(__dirname, '../site/'),
-        publicPath: '/'
+        publicPath: '/site/'
     },
 
     context: path.resolve(__dirname, '../site'),

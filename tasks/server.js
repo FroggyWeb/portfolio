@@ -15,7 +15,7 @@ function server() {
 
     let config = {
         server: {
-            baseDir: "./site",
+            baseDir: "./",
             directory: true
         },
         files: [

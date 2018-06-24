@@ -1,4 +1,4 @@
-import modal from '../component/mymodal.js';
+import modal from './mymodal.js';
 import slick from './../vendor/slick';
 
 
@@ -38,8 +38,7 @@ function showWork() {
 let works;
 let index = $('.works__list .works__card');
 
-$.getJSON('./../views/data.json', function (data) {
+$.getJSON('./views/data.json', function (data) {
   works = data.works;
   showWork();
 });
-
