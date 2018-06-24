@@ -1,0 +1,99 @@
+extend part/_base
+block content
+  +b.page
+    +e.__content
+      +b.SECTION.intro
+        +e.__slide.container
+          +e.__main
+            +b.H1.title.__title !{intro[0].title}
+            +e.__devices
+              +b.phone.intro__phone
+                img(src="../img/iPhone.png", alt="Phone")
+                +e.__screen
+                  img(src="../img/cms-phone.jpg", alt="")
+
+              +b.pad.intro__pad
+                img(src="../img/iPad.png", alt="Tablet")
+                +e.__screen
+                  img(src="../img/cms-pad.jpg", alt="")
+
+              +b.book.intro__book
+                img(src="../img/MacBook.png", alt="Notebook")
+                +e.__screen
+                  img(src="../img/cms-book.jpg", alt="")
+
+          +b.UL.features.intro__features
+            each item in intro[0].features
+              +b.LI.feature
+                +icon(item.icon, "feature__icon")
+                +e.__txt !{item.txt}
+
+      .section
+        .container
+          +b.H2.title.--section Навыки и технологии
+          +b.skills.row
+            +e.__img
+              include ../img/tech-mask.svg
+              svg(class="mask" viewBox="0 0 500 420")
+                <rect width="500" height="500" fill="#fff" mask=url("#clip-tech") />
+            +b.UL.check-list.__check-list
+              +e.__item
+                +icon("check-circle")
+                | верстка страниц IE8+;
+              +e.__item
+                +icon("check-circle")
+                | независимые блоки;
+              +e.__item
+                +icon("check-circle")
+                | адаптивная + резиновая верстка;
+              +e.__item
+                +icon("check-circle")
+                | верстка e-mail рассылок;
+              +e.__item
+                +icon("check-circle")
+                | CSS3 и JS анимация;
+              +e.__item
+                +icon("check-circle")
+                | использование SVG/png спрайтов;
+              +e.__item
+                +icon("check-circle")
+                | оптимизация загрузки страниц;
+              +e.__item
+                +icon("check-circle")
+                | интеграция верстки в CMS (MODX Revolution);
+            +e.__view
+              +b.btn.--big(href="/", target="_blank") Посмотреть исходники этого проекта
+
+            +b.skills-list
+              .row
+                +e.__item
+                  .test
+                    +e.H3.__title.title-small Верстка сайтов
+                    | Адаптивная верстка сайтов и рассылок с использованием HTML и CSS <strong>препроцессоров</strong> (PUG, Stylus, SASS). Сборка проекта с помощью GULP. Оптимизация изображений, стилей, скриптов. Интеграция JS скриптов – настройка, использование API, написание своих несложных скриптов на JQUERY, базовые знания нативного JS.
+                +e.__item
+                  +e.H3.__title.title-small Интеграция CMS
+                  | Интеграция верстки в <strong> MODX Revolution</strong> с использованием стандартного шаблонизатора и Femom. Работа с модулями магазина - Shopkeeper (делал коммерческие проекты) и MiniShop. Опыта разработки модулей нет. Так же изучаю интеграцию шаблонов в Wordpress и OpenCart.
+                +e.__item
+                  +e.H3.__title.title-small Разработка дизайна
+                  | Доработка дизайна шаблона, разработка индивидуального дизайна по пожеланиям заказчика.
+      .section
+        .container
+          +b.H2.title.--section Примеры работ
+          include ./part/_works.pug
+
+//- Content page_______________________________________
+block form
+  //- +b.my-modal
+  //-   +b.work-about.row
+  //-     +e.__img
+  //-       +b.slider.--work
+  //-         +e.__item.work-about__img-wrap
+  //-           img(src="../img/works/dolce-1.jpg", alt="")
+  //-         +e.__item.work-about__img-wrap
+  //-           img(src="../img/works/dolce-2.jpg", alt="")
+
+  //-     +e.__txt
+  //-       +e.__title.title-small Название работы
+  //-       p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Сих текста необходимыми живет мир, переписали точках щеке предупреждал, журчит своих рукописи своего маленькая коварных рыбного безопасную вскоре жаренные реторический!
+  //-       +b.btn-wrap
+  //-         +b.btn(href="#") перейти на сайт

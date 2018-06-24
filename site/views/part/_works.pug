@@ -1,0 +1,16 @@
++b.works
+  +b.UL.works-flt
+    +e.LI.__item
+      +b.BUTTON.btn.__btn(data-filter="all") Все работы
+    +e.LI.__item
+      +b.BUTTON.btn.__btn(data-filter=".html") Верстка
+    +e.LI.__item
+      +b.BUTTON.btn.__btn(data-filter=".cms") Интеграция CMS
+    +e.LI.__item
+        +b.BUTTON.btn.__btn(data-filter=".design") Дизайн
+  +e.__list
+    each work in works
+      +e.__item.mix(class=work.class)
+        +e.__card
+          img(src=work.prev, alt="портфолио")
+

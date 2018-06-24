@@ -1,0 +1,104 @@
+.phone,
+.pad,
+.book
+  position: relative
+  img
+    max-width: none
+
+.phone
+  &__screen
+    position: absolute
+    overflow: hidden
+    left: 117px
+    top:  23px
+    width: 88px
+    height: 156px
+.pad
+  &__screen
+    position: absolute
+    overflow: hidden
+    top: 23px
+    left: 176px
+    width: 227px
+    height: 300px
+.book
+  &__screen
+    position: absolute
+    overflow: hidden
+    left: 124px
+    top: 21px
+    width: 415px
+    height: 261px
+
+.intro
+  background-color: #C9CBCC
+  &__main
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+    margin: auto 0
+
+  &__slide
+    min-height: 100vh
+    display: flex
+    justify-content: space-between
+    flex-flow: column
+
+  &__devices
+    position: relative
+    display: flex
+    align-items: flex-end
+    min-height: 360px
+    justify-content: flex-end
+    +r(lg)
+      width: 50%
+      margin-left: -40px
+      justify-content: flex-start
+    // +r(sm)
+
+  &__phone
+    z-index: 10
+    margin-right: -220px
+    margin-left: -60px
+    +rm(xs,md)
+      margin-left: -100px
+
+  &__pad
+    margin-bottom: 20px
+    +r(xs)
+      margin-right: -220px
+
+  &__book
+    display: none
+    +r(xs)
+      display: block
+
+  &__title
+    +r(sm)
+      font-size: 42px
+      text-align: center
+      flex: 1
+    +r(lg)
+      text-align: left
+    +r(xl)
+      font-size: 46px
+      line-height: 1.2
+      width: 50%
+
+  &__features
+    margin: $l-g 0
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.features
+  @extend %ul-l
+
+.feature
+  margin-bottom: $l-g/2
+  display: flex
+  align-items: center
+  flex-basis: 250px
+  &__icon
+    font-size: 3.5em
+    margin-right: $l-g/2

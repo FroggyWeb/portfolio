@@ -1,0 +1,45 @@
+.title
+  font-weight: 200
+  font-family: $f-title
+  line-height: 1.2
+  font-size: 42px
+  margin: 0 0 .83em
+  +r(sm)
+    font-size: 48px
+
+.title-small
+  font: 25px/1.2 $f-title
+  margin: 0 0 30px
+  text-transform: uppercase
+  position: relative
+  &:after
+    content: ""
+    position: absolute
+    bottom: -10px
+    left: 0
+    width: 60px
+    height: 3px
+    background-color: $c-brand
+
+.btn-wrap
+  margin-top: 40px
+
+.btn
+  text-decoration: none
+  display: inline-block
+  background-color: $c-brand
+  padding: .7em 1.5em
+  line-height: 1.2
+  border-radius: 8px
+  border: none
+  outline: none
+  color: #000
+
+  &--big
+    font-size: 18px
+
+.btn.active,
+.mixitup-control-active
+  background-color: #000
+  color: #ffffff
+
