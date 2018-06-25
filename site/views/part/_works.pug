@@ -5,6 +5,8 @@
     +e.LI.__item
       +b.BUTTON.btn.__btn(data-filter=".html") Верстка
     +e.LI.__item
+      +b.BUTTON.btn.__btn(data-filter=".adaptive") Адаптив
+    +e.LI.__item
       +b.BUTTON.btn.__btn(data-filter=".cms") Интеграция CMS
     +e.LI.__item
         +b.BUTTON.btn.__btn(data-filter=".design") Дизайн
@@ -13,4 +15,10 @@
       +e.__item.mix(class=work.class)
         +e.__card
           img(src=work.prev, alt="портфолио")
+          -var cls = work.class.split(" ")
+          +e.__icon-list
+            each icon in cls
+              +e.__icon-list-item
+                +icon(icon, "icon-work")
+
 

@@ -68,7 +68,7 @@
       "name": "Интернет-магазин напольных покрытий",
       "desc": "Верстка интернет-магазина для компании scroll.by, интеграция CMS MODX Revolution, настройка дополнения Shopkeeper и фильтрации товаров",
       "prev": "../img/works/hata-prev.jpg",
-      "class": "html cms",
+      "class": "html cms adaptive",
       "link": "http://hata-laminata.by",
       "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
     },

@@ -26,8 +26,24 @@
   height: 1em;
   fill: currentColor; }
 
+.icon-adaptive {
+  font-size: 4.8rem;
+  width: 1em; }
+
 .icon-check-circle {
   font-size: 1.6rem;
+  width: 1em; }
+
+.icon-cms {
+  font-size: 4.8rem;
+  width: 1em; }
+
+.icon-design {
+  font-size: 4.8rem;
+  width: 1em; }
+
+.icon-html {
+  font-size: 4.8rem;
   width: 1em; }
 
 .icon-module {
@@ -501,7 +517,7 @@ svg {
     left: 0;
     width: 60px;
     height: 3px;
-    background-color: #ffe32c; }
+    background-color: #cabb87; }
 
 .btn-wrap {
   margin-top: 40px; }
@@ -509,20 +525,25 @@ svg {
 .btn {
   text-decoration: none;
   display: inline-block;
-  background-color: #ffe32c;
+  background-color: #cabb87;
   padding: .7em 1.5em;
   line-height: 1.2;
-  border-radius: 8px;
+  border-radius: 4px;
   border: none;
   outline: none;
-  color: #000; }
+  color: #000;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
+  .btn:hover {
+    background-color: #fbe556; }
   .btn--big {
     font-size: 18px; }
 
 .btn.active,
 .mixitup-control-active {
   background-color: #000;
-  color: #ffffff; }
+  color: #fff; }
 
 .skills, .works__list, .row {
   display: -webkit-box;
@@ -692,7 +713,7 @@ svg {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    color: #ffe32c;
+    color: #cabb87;
     display: inline-block;
     vertical-align: middle; }
 
@@ -717,9 +738,45 @@ svg {
           -ms-flex: 0 0 33.33333%;
               flex: 0 0 33.33333%; } }
 
-.works__cart {
+.works__card {
   height: 250px;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s; }
+  .works__card:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    -webkit-transform: rotate(45deg) translate(-50%);
+        -ms-transform: rotate(45deg) translate(-50%);
+            transform: rotate(45deg) translate(-50%); }
+  .works__card:hover {
+    -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3); }
+
+.works__icon-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9); }
+  .works__icon-list-item {
+    text-align: center;
+    color: #000;
+    border-radius: 50%; }
+
+.icon-work {
+  font-size: 48px; }
 
 .works-flt {
   width: 100%;
