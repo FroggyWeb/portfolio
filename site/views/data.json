@@ -27,122 +27,127 @@
     {
       "name": "Интернет-магазин dolcevita.by",
       "desc": "Верстка интернет-магазина для компании Таникс",
-      "prev": "../img/works/dolce-prev.jpg",
+      "prev": "./img/works/dolce-prev.jpg",
       "class": "html",
       "link": "http://dolcevita.by",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
     },
     {
       "name": "Сайт-каталог мебели и тканей",
       "desc": "Разработка дизайна главной страницы и каталога продукции",
-      "prev": "../img/works/mebel-prev.jpg",
+      "prev": "./img/works/mebel-prev.jpg",
       "class": "design",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/mebel-1.jpg", "./img/works/mebel-2.jpg", "./img/works/mebel-3.jpg"]
     },
     {
       "name": "Блог о интернет-магазинах shopzona.info",
       "desc": "Адаптивная верстка",
-      "prev": "../img/works/shopzona-prev.jpg",
+      "prev": "./img/works/shopzona-prev.jpg",
       "class": "html",
       "link": "http://shopzona.info",
-      "screen": [1,2,4]
+      "screen": ["./img/works/shopzona-1.jpg", "./img/works/shopzona-2.jpg"]
     },
     {
       "name": "Корпоративный сайт",
       "desc": "Разработка сайта под ключ. Разработка дизайна, верстка, интеграция CMS MODX Revolution",
-      "prev": "../img/works/adipol-prev.jpg",
+      "prev": "./img/works/adipol-prev.jpg",
       "class": "html cms design",
       "link": "http://new.adipol.by",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/adipol-1.jpg", "./img/works/adipol-2.jpg", "./img/works/adipol-3.jpg"]
     },
     {
       "name": "Интернет-магазин часов",
       "desc": "Верстка интернет-магазина для компании Таникс",
-      "prev": "../img/works/tissot-prev.jpg",
+      "prev": "./img/works/tissot-prev.jpg",
       "class": "html",
       "link": "http://swisstime.by",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/tissot-1.jpg", "./img/works/tissot-2.jpg"]
     },
     {
       "name": "Интернет-магазин напольных покрытий",
       "desc": "Верстка интернет-магазина для компании scroll.by, интеграция CMS MODX Revolution, настройка дополнения Shopkeeper и фильтрации товаров",
+<<<<<<< HEAD
+      "prev": "./img/works/hata-prev.jpg",
+      "class": "html cms",
+=======
       "prev": "../img/works/hata-prev.jpg",
       "class": "html cms adaptive",
+>>>>>>> 9450f23683f476274c4586c69a2c3c671d099eb0
       "link": "http://hata-laminata.by",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/hata-1.jpg"]
     },
     {
       "name": "Корпоративный сайт школы языков",
       "desc": "Разработка дизайна, адаптивная верстка, интеграция CMS MODX Revolution",
-      "prev": "../img/works/ekvitas-sc-prev.jpg",
+      "prev": "./img/works/ekvitas-sc-prev.jpg",
       "class": "html cms design",
       "link": "http://www.ekvitas-school.by",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/ekvitas-sc.jpg", "./img/works/ekvitas-sc2.jpg"]
     },
     {
       "name": "Корпоративный сайт производителя оборудования",
       "desc": "Разработка дизайна главной страницы для сайта производителя оборудования",
-      "prev": "../img/works/dor-concept-prev.jpg",
+      "prev": "./img/works/dor-concept-prev.jpg",
       "class": "design",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
     },
     {
       "name": "Интернет-магазин косметики",
       "desc": "Разработка дизайна, адаптивная верстка, интеграция CMS MODX Revolution, настройка фильтров. В данное время заказчик изменил структуру каталога, многие вещи в результате не работают, сайт мной не поддерживается.",
-      "prev": "../img/works/lav-prev.jpg",
+      "prev": "./img/works/lav-prev.jpg",
       "class": "html cms design",
       "link": "http://lav-shop.by",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
     },
     {
       "name": "Корпоративный сайт",
       "desc": "Верстка корпоративного сайта производителя сыров для компании Таникс",
-      "prev": "../img/works/belcheese-prev.jpg",
+      "prev": "./img/works/belcheese-prev.jpg",
       "class": "html",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/belcheese.1.jpg", "./img/works/belcheese.2.jpg"]
     },
     {
       "name": "Сайт-блог",
       "desc": "Разработка дизайна главной страницы для сайта-портфолио",
-      "prev": "../img/works/hoshu-prev.jpg",
+      "prev": "./img/works/hoshu-prev.jpg",
       "class": "design",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
     },
     {
       "name": "Сайт-каталог питомника растений",
       "desc": "Разработка дизайна сайта, верстка",
-      "prev": "../img/works/tree-prev.jpg",
+      "prev": "./img/works/tree-prev.jpg",
       "class": "html design",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/tree-1.jpg"]
     },
     {
       "name": "Интернет-магазин одежды",
       "desc": "Верстка интернет-магазина для компании Таникс",
-      "prev": "../img/works/hamster-prev.jpg",
+      "prev": "./img/works/hamster-prev.jpg",
       "class": "html",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/hamster-1.jpg"]
     },
     {
       "name": "Корпоративный сайт",
       "desc": "Верстка корпоративного сайта для компании Таникс",
-      "prev": "../img/works/aquapark-prev.jpg",
+      "prev": "./img/works/aquapark-prev.jpg",
       "class": "html",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/aquapark-1.jpg"]
     },
     {
       "name": "Корпоративный сайт",
       "desc": "Разработка дизайна главной страницы",
-      "prev": "../img/works/biz-tech-prev.jpg",
+      "prev": "./img/works/biz-tech-prev.jpg",
       "class": "design",
       "link": "",
-      "screen": ["../img/works/dolce-1.jpg", "../img/works/dolce-2.jpg"]
+      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
     }
   ]
 }

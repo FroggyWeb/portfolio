@@ -111,38 +111,46 @@
 .my-modal
   position: fixed
   width: 100%
-  height: 10%
+  height: 100%
   z-index: 1000
   left: 0
   top: 0
-  width: 100%
-  height: 100%
-  padding: 60px 10vw 10vh 10vw
+  padding: 120px 2rem 2rem 2rem
   overflow-y: auto
   // background-color: rgba(#000, .7)
   background:	linear-gradient(45deg, rgba(8, 8, 21, 0.98) 30%, #000315)
 
 .work-about
-  width: 100%
-  height: 100%
-  // padding: 60px 20px 20px
+  flex-wrap: wrap
   color: #fff
   // overflow-y: scroll
   &__img
     position: relative
-    height: 100%
-    +col(1/2)
+    +col(1)
+    order: 1
+    +r(md)
+      padding: 0 60px
+      order: 0
+      +col(2/3)
     // width: 50%
   &__img-wrap
-    max-height: calc(100vh - 10vh - 60px)
+    max-height: 600px
     overflow-y: auto
-
     img
       width: 100%
+
 .close-modal
-  background-color: red
-  width: 40px
-  height: 40px
+  position: absolute
+  top: 20px
+  right: 20px
+  width: 20px
+  height: 20px
+  background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzJweCIgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiPgogIDxnPgogICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTI4Ljk0MSwzMS43ODZMMC42MTMsNjAuMTE0Yy0wLjc4NywwLjc4Ny0wLjc4NywyLjA2MiwwLDIuODQ5YzAuMzkzLDAuMzk0LDAuOTA5LDAuNTksMS40MjQsMC41OSAgIGMwLjUxNiwwLDEuMDMxLTAuMTk2LDEuNDI0LTAuNTlsMjguNTQxLTI4LjU0MWwyOC41NDEsMjguNTQxYzAuMzk0LDAuMzk0LDAuOTA5LDAuNTksMS40MjQsMC41OWMwLjUxNSwwLDEuMDMxLTAuMTk2LDEuNDI0LTAuNTkgICBjMC43ODctMC43ODcsMC43ODctMi4wNjIsMC0yLjg0OUwzNS4wNjQsMzEuNzg2TDYzLjQxLDMuNDM4YzAuNzg3LTAuNzg3LDAuNzg3LTIuMDYyLDAtMi44NDljLTAuNzg3LTAuNzg2LTIuMDYyLTAuNzg2LTIuODQ4LDAgICBMMzIuMDAzLDI5LjE1TDMuNDQxLDAuNTljLTAuNzg3LTAuNzg2LTIuMDYxLTAuNzg2LTIuODQ4LDBjLTAuNzg3LDAuNzg3LTAuNzg3LDIuMDYyLDAsMi44NDlMMjguOTQxLDMxLjc4NnoiLz4KICA8L2c+Cjwvc3ZnPgo=)
+  background-repeat: no-repeat
+  background-size: cover
+  +r(md)
+    width: 40px
+    height: 40px
 
 body.lock
   overflow: hidden
