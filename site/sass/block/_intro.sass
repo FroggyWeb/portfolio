@@ -50,7 +50,10 @@
     align-items: flex-end
     min-height: 360px
     justify-content: flex-end
-    +r(lg)
+    +r(md)
+      justify-content: center
+      width: 100%
+    +r(xl)
       width: 50%
       margin-left: -40px
       justify-content: flex-start
@@ -70,17 +73,16 @@
 
   &__book
     display: none
-    +r(xs)
+    +r(sm)
       display: block
 
   &__title
-    +r(sm)
-      font-size: 42px
-      text-align: center
-      flex: 1
-    +r(lg)
-      text-align: left
+    font-size: 42px
+    text-align: center
+    flex: 0 0 100%
     +r(xl)
+      flex: 1
+      text-align: left
       font-size: 46px
       line-height: 1.2
       width: 50%

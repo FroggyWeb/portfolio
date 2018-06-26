@@ -3,7 +3,7 @@ import slick from './../vendor/slick';
 
 
 function showWork() {
-  console.log($('.works__list'));
+  let index = $('.works__list .works__card');
   $('.works__list').on("click", ".works__card", function (e) {
     let n = index.index(this);
     let work = `
@@ -36,9 +36,10 @@ function showWork() {
 }
 
 let works;
-let index = $('.works__list .works__card');
+
 
 $.getJSON('./views/data.json', function (data) {
   works = data.works;
-  showWork();
 });
+
+showWork();

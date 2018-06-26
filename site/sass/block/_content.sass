@@ -70,17 +70,10 @@
     position: relative
     cursor: pointer
     transition: all .2s
-    &:before
-      content: ""
-      width: 100%
-      height: 200%
-      background-color: rgba(#000, .6)
-      position: absolute
-      top: -50%
-      left: -50%
-      transform: rotate(45deg) translate(-50%)
     &:hover
       box-shadow: 0 0 15px 2px rgba(#000, .3)
+      .works__icon-list-item
+        transform: translateY(0)
 
   &__icon-list
     position: absolute
@@ -88,12 +81,23 @@
     left: 0
     display: flex
     width: 100%
-    background-color: rgba(#FFF, .9)
 
     &-item
       text-align: center
       color: #000
+      background: $c-brand
       border-radius: 50%
+      width: 48px
+      height: 48px
+      margin: 0 3px
+      transition: all .3s
+      transform: translateY(100%)
+      &:nth-child(2)
+        transition-delay: .2s
+      &:nth-child(3)
+        transition-delay: .3s
+      &:nth-child(4)
+        transition-delay: .4s
       // background-color: #333
 
 .icon-work
@@ -154,3 +158,19 @@
 
 body.lock
   overflow: hidden
+
+.contact-wrap
+  background-color: #eee
+  padding: 40px 0
+.contact
+  display: flex
+  justify-content: center
+  align-items: center
+  .title
+    margin-bottom: 0
+  &__list
+    border-left: 1px solid
+    padding-left: 30px
+    color: #555
+    font-size: 18px
+    margin-left: 30px

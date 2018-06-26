@@ -29,7 +29,7 @@ let config = {
         publicPath: '/site/'
     },
 
-    context: path.resolve(__dirname, '../site'),
+    context: path.resolve(__dirname, '../site/'),
 
     resolve: {
       extensions: ['.js', '.vue', '.json'],

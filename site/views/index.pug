@@ -1,7 +1,7 @@
 extend part/_base
 block content
   +b.page
-    +e.__content
+    +e.MAIN.__content
       +b.SECTION.intro
         +e.__slide.container
           +e.__main
@@ -28,7 +28,7 @@ block content
                 +icon(item.icon, "feature__icon")
                 +e.__txt !{item.txt}
 
-      .section
+      section.section
         .container
           +b.H2.title.--section Навыки и технологии
           +b.skills.row
@@ -76,10 +76,20 @@ block content
                 +e.__item
                   +e.H3.__title.title-small Разработка дизайна
                   | Доработка дизайна шаблона, разработка индивидуального дизайна по пожеланиям заказчика.
-      .section
+      section.section
         .container
           +b.H2.title.--section Примеры работ
           include ./part/_works.pug
+
+      section
+        +b.contact-wrap
+          .container
+            +b.contact
+              +b.H2.title.--section Контакты
+              +e.__list
+                +e.__item <strong>Дмитрий</strong>
+                +e.__item <strong>e-mail:</strong> <a href="mailto:_mitia_@tut.by">_mitia_@tut.by</a>
+                +e.__item <strong>skype:</strong> <a href="skype:druks.by?chat">druks.by</a>
 
 //- Content page_______________________________________
 block form
