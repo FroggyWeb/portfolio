@@ -40,6 +40,6 @@ let works;
 
 $.getJSON('./views/data.json', function (data) {
   works = data.works;
+  success: showWork();
 });
 
-showWork();

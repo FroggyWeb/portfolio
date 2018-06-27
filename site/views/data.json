@@ -49,6 +49,14 @@
       "screen": ["./img/works/shopzona-1.jpg", "./img/works/shopzona-2.jpg"]
     },
     {
+      "name": "Интернет-магазин косметики",
+      "desc": "Разработка дизайна, адаптивная верстка, интеграция CMS MODX Revolution, настройка фильтров. В данное время заказчик изменил структуру каталога, многие вещи в результате не работают, сайт мной не поддерживается.",
+      "prev": "./img/works/lav-prev.jpg",
+      "class": "html adaptive cms design",
+      "link": "https://froggyweb.github.io/lav/",
+      "screen": ["./img/works/lav-0.jpg", "./img/works/lav-1.jpg", "./img/works/lav-2.jpg"]
+    },
+    {
       "name": "Корпоративный сайт",
       "desc": "Разработка сайта под ключ. Разработка дизайна, верстка, интеграция CMS MODX Revolution",
       "prev": "./img/works/adipol-prev.jpg",
@@ -86,15 +94,7 @@
       "prev": "./img/works/dor-concept-prev.jpg",
       "class": "design",
       "link": "",
-      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
-    },
-    {
-      "name": "Интернет-магазин косметики",
-      "desc": "Разработка дизайна, адаптивная верстка, интеграция CMS MODX Revolution, настройка фильтров. В данное время заказчик изменил структуру каталога, многие вещи в результате не работают, сайт мной не поддерживается.",
-      "prev": "./img/works/lav-prev.jpg",
-      "class": "html adaptive cms design",
-      "link": "http://lav-shop.by",
-      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
+      "screen": ["./img/works/dor-mash-1.jpg", "./img/works/dor-mash-2.jpg"]
     },
     {
       "name": "Корпоративный сайт",
@@ -124,17 +124,17 @@
       "name": "Интернет-магазин одежды",
       "desc": "Верстка интернет-магазина для компании Таникс",
       "prev": "./img/works/hamster-prev.jpg",
-      "class": "html",
-      "link": "",
-      "screen": ["./img/works/hamster-1.jpg"]
+      "class": "html adaptive",
+      "link": "https://froggyweb.github.io/hamster/",
+      "screen": ["./img/works/hamster-1.jpg", "./img/works/hamster-2.jpg"]
     },
     {
       "name": "Корпоративный сайт",
       "desc": "Верстка корпоративного сайта для компании Таникс",
       "prev": "./img/works/aquapark-prev.jpg",
       "class": "html",
-      "link": "",
-      "screen": ["./img/works/aquapark-1.jpg"]
+      "link": "https://froggyweb.github.io/vodagorki/",
+      "screen": ["./img/works/aquapark-1.jpg", "./img/works/aquapark-2.jpg"]
     },
     {
       "name": "Корпоративный сайт",
@@ -142,7 +142,7 @@
       "prev": "./img/works/biz-tech-prev.jpg",
       "class": "design",
       "link": "",
-      "screen": ["./img/works/dor-mash-1.jpg", "./img/works/dor-mash-2.jpg"]
+      "screen": ["./img/works/biz-tech-1.jpg"]
     }
   ]
 }
