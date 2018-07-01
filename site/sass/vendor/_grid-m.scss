@@ -11,7 +11,8 @@
 @mixin col($span, $gutter: $l-g) {
   margin-left: $gutter;
   margin-right: $gutter;
-  flex: 0 0 calc(#{percentage($span)} - #{2*$gutter});
+  flex: 0 0 auto;
+  width: calc(#{percentage($span)} - #{2*$gutter});
 }
 
 %row {
@@ -28,7 +29,6 @@
   flex-grow: 1;
   flex-basis: 0;
   max-width: 100%;
-  background-clip: content-box !important;
   margin: $l-g;
 }
 

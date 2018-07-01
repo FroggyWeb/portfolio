@@ -33,9 +33,9 @@ block content
           +b.H2.title.--section Навыки и технологии
           +b.skills.row
             +e.__img
-              include ../img/tech-mask.svg
-              svg(class="mask" viewBox="0 0 500 420")
-                <rect width="500" height="500" fill="#fff" mask=url("#clip-tech") />
+              +e.__bg
+                include ../img/tech-mask.svg
+
             +b.UL.check-list.__check-list
               +e.__item
                 +icon("check-circle")

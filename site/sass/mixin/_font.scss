@@ -7,8 +7,7 @@
   $folder: "../font/";
   @font-face {
     font-family: $font-family;
-    src: url('#{$folder}/#{$filename}.woff2'),
-         url('#{$folder}/#{$filename}.woff');
+    src: url('#{$folder}/#{$filename}.woff');
     font-style: $style;
     font-weight: $weight;
   }
