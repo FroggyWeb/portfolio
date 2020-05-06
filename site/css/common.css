@@ -54,6 +54,10 @@
   font-size: 6.4rem;
   width: 1em; }
 
+.icon-mouse {
+  font-size: 4.2rem;
+  width: 0.41905em; }
+
 .icon-setting {
   font-size: 6.4rem;
   width: 1em; }
@@ -1053,6 +1057,9 @@ body.lock {
   .feature__icon {
     font-size: 3.5em;
     margin-right: 0.75rem; }
+
+.icon-scroll {
+  margin: 30px auto; }
 
 * {
   min-height: 0;
