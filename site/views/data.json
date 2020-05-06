@@ -25,12 +25,20 @@
   ],
   "works": [
     {
-      "name": "Интернет-магазин dolcevita.by",
-      "desc": "Верстка интернет-магазина для компании Таникс",
-      "prev": "./img/works/dolce-prev.jpg",
-      "class": "html",
-      "link": "http://dolcevita.by",
-      "screen": ["./img/works/dolce-1.jpg", "./img/works/dolce-2.jpg"]
+      "name": "Landing page станции переоборудования авто",
+      "desc": "Разработка дизайна, адаптивная верстка",
+      "prev": "./img/works/busstart-prev.jpg",
+      "class": "html adaptive design",
+      "link": "https://froggyweb.github.io/busstart/assets/",
+      "screen": ["./img/works/busstar-1.jpg"]
+    },
+    {
+      "name": "Студия танцев Nebula",
+      "desc": "Разработка дизайна сайта, адаптивная верстка, интеграция системы управления сайтом Modx Rvolution",
+      "prev": "./img/works/nebula-prev.jpg",
+      "class": "html adaptive cms design",
+      "link": "http://nebula.by",
+      "screen": ["./img/works/nebula-1.jpg", "./img/works/nebula-2.jpg"]
     },
     {
       "name": "Сайт-каталог мебели и тканей",
